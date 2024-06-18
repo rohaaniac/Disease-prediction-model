@@ -82,8 +82,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'predico',
         'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost'
+        'PASSWORD': 'A3C2FE0C',
+        'HOST': 'localhost',
+        'PORT': 8000,
     }
 }
 
@@ -118,7 +119,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
